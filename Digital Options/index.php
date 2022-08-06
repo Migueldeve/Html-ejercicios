@@ -8,9 +8,7 @@
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<?<php>
-	$var = 'hello digital options';
-	?>
+	<?php $var = 'hello digital options'; ?>
 
 	<ul class="menu">
 		 <li><a href="#Inicio">Inicio</a></li>
@@ -19,7 +17,7 @@
 		 <li><a href="#Contacto">Contacto</a></li>
 	</ul>
 
-	<p><?php echo $var;?></p>
+	<h5><?php echo $var;?></h5>
 
 	<script src="index.js"></script>
 </body>
