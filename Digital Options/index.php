@@ -8,12 +8,19 @@
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
+	<?<php>
+	$var = 'hello digital options';
+	?>
+
 	<ul class="menu">
 		 <li><a href="#Inicio">Inicio</a></li>
 		 <li><a href="#Servicios">Servicios</a></li>
 		 <li><a href="#Equipo">Equipo</a></li>
 		 <li><a href="#Contacto">Contacto</a></li>
 	</ul>
+
+	<p><?php echo $var;?></p>
+
 	<script src="index.js"></script>
 </body>
 </html>
