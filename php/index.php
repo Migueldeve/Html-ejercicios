@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mira si eres alto o bajito</title>
-    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -49,10 +48,10 @@
     
     $nombres = ["pepito", "miguel", "david"];
     
-    echo "<h3>".$nombres[0]."</h3>";?>
+    echo "<h3>".$nombres[2]."</h3>";?>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="">
-    
+    <h3><div id="js"></div></h3>
 
+    <script src="index.js"></script>
 </body>
 </html>
