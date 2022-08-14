@@ -1,6 +1,6 @@
 // api connection
 const conectarApi = async() => {
-    const respuesta = await fetch('https://jsonplaceholder.typicode.com/users');
+    const respuesta = await fetch('http://localhost:3000/bandidos');
     
     console.log(respuesta);
 
@@ -9,8 +9,10 @@ const conectarApi = async() => {
 
     let usuarios = '';
     datos.forEach(usuario => {
-        usuarios = usuarios + `<h1>${usuario.name}</h1>`;
-        usuarios = usuarios + `<h1>${usuario.email}</h1>`;
+        usuarios += `<h4>${usuario.id}</h4>`;
+        usuarios += `<h1>${usuario.name}</h1>`;
+        usuarios += `<h1>${usuario.username}</h1>`;
+        // usuarios += `<h1>${usuario.website}</h1>`;
     });
 
     document.getElementById('js').innerHTML = usuarios;
